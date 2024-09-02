@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgba(16,10,44);
+    color:white;
+    margin: 2rem;
+    padding:2rem;
+    border:1px solid white;
+}
+.header{
+    display:flex;
+    justify-content: center;
+    padding:1rem;
+    background-color: rgba(16,10,44);
+}
+
+h1{
+    font-size: 50px;
+}
+.header:hover{
+    background-color: navy;
+    cursor:pointer;
+}
+.header > img{
+    padding:1rem;
+    padding-top: 0;
+}
+.rules{
+    font-size: 1.5rem;
+}
+.buttonchange{
+    display: flex;
+    justify-content: center;
+}
+.back{
+        width:120px;
+        height:40px;
+        border-radius: 20px;
+        background-color: cyan;
+        color:rgba(0,0,0);
+}
+.back:hover{
+    background-color: beige;
+    color:black;
+    font-size: 15px;
+    cursor : pointer;
+}
+.back>a{
+    text-decoration: none;
+}

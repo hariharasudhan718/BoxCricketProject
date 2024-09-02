@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgba(16,10,44);
+    color:white;
+    background-image: url(AdobeStock_219801337_Preview.jpeg);
+    background-size: cover;
+}
+.header{
+    display:flex;
+    justify-content: center;
+    padding:1rem;
+    background-color: rgba(16,10,44);
+}
+
+h1{
+    font-size: 50px;
+}
+.header:hover{
+    background-color: navy;
+    cursor:pointer;
+}
+.header > img{
+    padding:1rem;
+    padding-top: 0;
+}
+.scoreBoard{
+    display: flex;
+    justify-content: center;
+}
+.scoreBoard > div{
+    font-size: 35px;
+    padding-left : 4rem;
+    padding-right: 4rem;
+    margin-top: 2rem;
+    
+}
+.scoreRow{
+    display: flex;
+    justify-content: center;
+}
+.scoreRow > div{
+    font-size: 35px;
+    padding-left:6rem;
+    padding-right:6rem;
+    padding-top: 2rem;
+    border:1px solid white;
+}
+.scoreheader{
+    background-color: white;
+    color:rgba(16,10,44);
+}
+.hidden{
+    display:none;
+}
+.howToPlayButton{
+    display:flex;
+    justify-content: center;
+    border-radius: 30px;
+}
+.howToPlay{
+    width:120px;
+    height:40px;
+    border-radius: 20px;
+    background-color: cyan;
+    color:rgba(0,0,0);
+}
+.howToPlay>a{
+    text-decoration: none;
+}
+.howToPlay:hover{
+    background-color: beige;
+    color:black;
+    font-size: 15px;
+}
+.book{
+    text-align: center;
+    padding:2rem;
+    font-size: 30px;
+}
+.bookButtons{
+    display: flex;
+    justify-content: center;
+}
+.pageNumber{
+    font-size: 70px;
+}
+.button{
+    padding:1rem;
+    padding-top: 0;
+}
+.button>.play,.button>.reset{
+    width:120px;
+    height:40px;
+    border-radius: 20px;
+    background-color: cyan;
+    color:rgba(0,0,0);
+}
+.hiddenScore{
+    display: hidden;
+}
+.dhoniImg{
+    display: flex;
+    justify-content: center;
+}

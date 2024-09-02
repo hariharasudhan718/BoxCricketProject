@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Cricket</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <img src="cricket.png" alt="cricket" width="50px">
+            <h1 class="heading">Book Cricket</h1>
+        </div>
+    </header>
+    <main>
+        <div class="howToPlayButton">
+            <button class="howToPlay"><a href="howToPlay.html">How To Play!</a></button>
+        </div>
+        <div class="scoreBoard">
+            <div class="score scoreheader">Score</div>
+            <div class="wickets scoreheader">Wickets</div>
+            <div class="highestscore scoreheader"><abbr title="Highest Score">HS</abbr></div>
+        </div>
+        <div class="scoreRow">
+            <div class="runs">0</div>
+            <div class="wkts">0</div>
+            <div class="hs">0</div>
+        </div>
+        <div class="dhoniImg">
+            <img class="dhoniImg1 hidden" src="Kulfy-295-media.gif" alt="Nice game">
+            <img src="Kulfy-200-media.gif" alt="Nooo" class="dhoniImg2 hidden">
+        </div>
+        <div class="book hiddenScore">
+            <div class="page">Page Number</div>
+            <br><br><br>
+            <div class="pageNumber">50</div>
+            <br><br><br>
+        </div>
+        <div class="bookButtons">
+            <div class="button">
+                <button id="play" action="submit" class="play">Play</button>
+            </div>
+            <div class="button">
+                <button class="reset">Reset</button>
+            </div>
+        </div>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
